@@ -1,0 +1,13 @@
+C:\TestProjects\TagHelpers\TagHelpersTest\bin\Debug\netcoreapp2.0\TagHelpersTest.deps.json
+C:\TestProjects\TagHelpers\TagHelpersTest\bin\Debug\netcoreapp2.0\TagHelpersTest.runtimeconfig.json
+C:\TestProjects\TagHelpers\TagHelpersTest\bin\Debug\netcoreapp2.0\TagHelpersTest.runtimeconfig.dev.json
+C:\TestProjects\TagHelpers\TagHelpersTest\bin\Debug\netcoreapp2.0\TagHelpersTest.dll
+C:\TestProjects\TagHelpers\TagHelpersTest\bin\Debug\netcoreapp2.0\TagHelpersTest.pdb
+C:\TestProjects\TagHelpers\TagHelpersTest\bin\Debug\netcoreapp2.0\TagHelpers.dll
+C:\TestProjects\TagHelpers\TagHelpersTest\bin\Debug\netcoreapp2.0\TagHelpers.pdb
+C:\TestProjects\TagHelpers\TagHelpersTest\obj\Debug\netcoreapp2.0\TagHelpersTest.csprojResolveAssemblyReference.cache
+C:\TestProjects\TagHelpers\TagHelpersTest\obj\Debug\netcoreapp2.0\TagHelpersTest.csproj.CoreCompileInputs.cache
+C:\TestProjects\TagHelpers\TagHelpersTest\obj\Debug\netcoreapp2.0\TagHelpersTest.AssemblyInfoInputs.cache
+C:\TestProjects\TagHelpers\TagHelpersTest\obj\Debug\netcoreapp2.0\TagHelpersTest.AssemblyInfo.cs
+C:\TestProjects\TagHelpers\TagHelpersTest\obj\Debug\netcoreapp2.0\TagHelpersTest.dll
+C:\TestProjects\TagHelpers\TagHelpersTest\obj\Debug\netcoreapp2.0\TagHelpersTest.pdb
