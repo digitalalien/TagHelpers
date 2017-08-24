@@ -12552,7 +12552,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\andrew.mallonee\\.nuget\\packages\\": {},
+    "C:\\Users\\Andrew\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
@@ -12561,33 +12561,31 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\TestProjects\\TagHelpers\\TagHelpersTest\\TagHelpersTest.csproj",
+      "projectUniqueName": "C:\\Users\\Andrew\\source\\repos\\TagHelpers\\TagHelpers\\TagHelpersTest\\TagHelpersTest.csproj",
       "projectName": "TagHelpersTest",
-      "projectPath": "C:\\TestProjects\\TagHelpers\\TagHelpersTest\\TagHelpersTest.csproj",
-      "packagesPath": "C:\\Users\\andrew.mallonee\\.nuget\\packages\\",
-      "outputPath": "C:\\TestProjects\\TagHelpers\\TagHelpersTest\\obj\\",
+      "projectPath": "C:\\Users\\Andrew\\source\\repos\\TagHelpers\\TagHelpers\\TagHelpersTest\\TagHelpersTest.csproj",
+      "packagesPath": "C:\\Users\\Andrew\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Andrew\\source\\repos\\TagHelpers\\TagHelpers\\TagHelpersTest\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\andrew.mallonee\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Andrew\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"
       ],
       "sources": {
-        "C:\\Nuget.Local": {},
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://www.nuget.org/api/v2/": {},
-        "https://znuget.zirmed.com/nuget/": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "C:\\TestProjects\\TagHelpers\\TagHelpers\\TagHelpers.csproj": {
-              "projectPath": "C:\\TestProjects\\TagHelpers\\TagHelpers\\TagHelpers.csproj"
+            "C:\\Users\\Andrew\\source\\repos\\TagHelpers\\TagHelpers\\TagHelpers\\TagHelpers.csproj": {
+              "projectPath": "C:\\Users\\Andrew\\source\\repos\\TagHelpers\\TagHelpers\\TagHelpers\\TagHelpers.csproj"
             }
           }
         }

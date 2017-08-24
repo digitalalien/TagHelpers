@@ -19,7 +19,7 @@ namespace TagHelpers
 
         [HtmlAttributeName("asp-for")]
         public ModelExpression For { get; set; }
-
+        
         public override void Process(TagHelperContext context, TagHelperOutput output)
         {
             base.Process(context, output);
@@ -29,10 +29,10 @@ namespace TagHelpers
             var input = Model.ModelExplorer.GetExplorerForProperty("SearchTerm");
 
             IModelMetadataProvider metadataProvider = new EmptyModelMetadataProvider();
-            var whatsmytype = Model.ModelExplorer.ModelType;
-            var whatsmytype2 = Model.ModelExplorer.Model.GetType();
+            
             ModelMetadata metadata = metadataProvider.GetMetadataForProperty(Model.ModelExplorer.Model.GetType(), Prop);
-            ModelExplorer modelExplorer = new ModelExplorer(metadataProvider, metadata, Model);
+            ModelExplorer container = input;
+            ModelExplorer modelExplorer = new ModelExplorer(metadataProvider, input, metadata, null);
             ModelExpression nm = new ModelExpression("SearchTerm", modelExplorer);
 
             TagHelperAttribute aspFor = new TagHelperAttribute("asp-for", nm, HtmlAttributeValueStyle.DoubleQuotes);
@@ -40,30 +40,13 @@ namespace TagHelpers
             attrs.Add(aspFor);
 
             TagHelperContext newContext = new TagHelperContext(context.TagName, attrs, context.Items, context.UniqueId);
-            
-            List<Variance> variances = new List<Variance>();
-            FieldInfo[] fi = For.GetType().GetFields();
-            foreach (FieldInfo f in fi)
-            {
-                Variance v = new Variance();
-                v.Prop = f.Name;
-                v.valA = f.GetValue(For);
-                v.valB = f.GetValue(nm);
-                if (!v.valA.Equals(v.valB))
-                    variances.Add(v);
+            TagHelperOutput newOutput = new TagHelperOutput("input", output.Attributes, output.GetChildContentAsync);
 
-            }
-
-            await base.ProcessAsync(newContext, output);
+            await base.ProcessAsync(newContext, newOutput);
 
             var test = output;
         }
 
-        private class Variance
-        {
-            public string Prop { get; set; }
-            public object valA { get; set; }
-            public object valB { get; set; }
-        }
+       
     }
 }

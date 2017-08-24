@@ -1,9 +1,9 @@
-﻿@model SearchViewModel
+﻿@model dynamic
 
 @{
     ViewData["Title"] = "Home Page";
 }
-<input asp-for="SearchTerm" asp-model="@Model" asp-property="SearchTerm" />
+<input  asp-model="@Model" asp-property="SearchTerm" />
 <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="6000">
     <ol class="carousel-indicators">
         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>

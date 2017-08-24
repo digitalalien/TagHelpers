@@ -7,3 +7,12 @@ C:\TestProjects\TagHelpers\TagHelpers\obj\Debug\netcoreapp2.0\TagHelpers.Assembl
 C:\TestProjects\TagHelpers\TagHelpers\bin\Debug\netcoreapp2.0\TagHelpers.pdb
 C:\TestProjects\TagHelpers\TagHelpers\obj\Debug\netcoreapp2.0\TagHelpers.dll
 C:\TestProjects\TagHelpers\TagHelpers\obj\Debug\netcoreapp2.0\TagHelpers.pdb
+C:\Users\Andrew\source\repos\TagHelpers\TagHelpers\TagHelpers\bin\Debug\netcoreapp2.0\TagHelpers.deps.json
+C:\Users\Andrew\source\repos\TagHelpers\TagHelpers\TagHelpers\bin\Debug\netcoreapp2.0\TagHelpers.dll
+C:\Users\Andrew\source\repos\TagHelpers\TagHelpers\TagHelpers\bin\Debug\netcoreapp2.0\TagHelpers.pdb
+C:\Users\Andrew\source\repos\TagHelpers\TagHelpers\TagHelpers\obj\Debug\netcoreapp2.0\TagHelpers.csprojResolveAssemblyReference.cache
+C:\Users\Andrew\source\repos\TagHelpers\TagHelpers\TagHelpers\obj\Debug\netcoreapp2.0\TagHelpers.csproj.CoreCompileInputs.cache
+C:\Users\Andrew\source\repos\TagHelpers\TagHelpers\TagHelpers\obj\Debug\netcoreapp2.0\TagHelpers.AssemblyInfoInputs.cache
+C:\Users\Andrew\source\repos\TagHelpers\TagHelpers\TagHelpers\obj\Debug\netcoreapp2.0\TagHelpers.AssemblyInfo.cs
+C:\Users\Andrew\source\repos\TagHelpers\TagHelpers\TagHelpers\obj\Debug\netcoreapp2.0\TagHelpers.dll
+C:\Users\Andrew\source\repos\TagHelpers\TagHelpers\TagHelpers\obj\Debug\netcoreapp2.0\TagHelpers.pdb
